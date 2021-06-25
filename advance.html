@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Advanced Search</title>
+    <link href="assets/images/logo.png" rel="icon" type="imge/png">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">
+            <img src="assets/images/google.png" id="brand">
+        </span>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">go back to Google</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div>
+            <nav class="navbar">
+                <span class="navbar-brand mb-0 h1">
+                    <label class="text-danger">Advance Search</label>
+                </span>
+            </nav>
+        </div>
+
+        <br>
+
+        <div class="border-top pt-5">
+            <span>Find pages with...</span>
+            <br>
+            <br>
+            <form action="https://google.com/search">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" for="input0">all these words:</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control form-control-sm" autofocus="autofocus" name="as_q"
+                            id="input0">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" for="input1">this exact word or phrase:</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control form-control-sm" name="as_epq" id="input1">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" for="input2">any of these words:</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control form-control-sm" name="as_oq" id="input2">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" for="input3">none of these words:</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control form-control-sm" name="as_eq" id="input3">
+                    </div>
+                </div>
+                <div class="pt-2 col-sm-8 d-grid gap-2 d-md-flex justify-content-md-end">
+                    <input type="submit" class="btn btn-primary btn-sm" value="Advance Search">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

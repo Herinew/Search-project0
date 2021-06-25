@@ -1,0 +1,47 @@
+body {
+    box-sizing: content-box;
+  }
+.logoCenter {
+    width: 300px; 
+    height: 150px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
+.inputSearch {
+    background-color: white;
+    background-image: url(free-icons-png-instagram-search-icon-white-11562954322qzcobg6iwo.png);
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    padding: 8px 5px 8px 35px;
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+}
+.inputSearch:hover {
+    box-shadow: 1px 1px 5px #dfe1e5;
+}
+.btnSearch:hover {
+    border: 1px solid #dfe1e5;
+    box-shadow: 1px 1px 5px #dfe1e5;
+}
+.main {
+    margin-top: 100px;    
+}
+#form1 {
+    width: 60%;
+    margin: auto;
+}
+p {
+    color: #4285f5;
+    margin-left: 239px;
+    margin-top: -50px;
+}
+.logoP {
+    width: max-content;
+    margin-bottom: 40px;
+}
+#brand {
+    margin-left: 10px;
+    width: 95px;
+    height: 47px;
+}
